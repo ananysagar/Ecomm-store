@@ -1,0 +1,32 @@
+.footer{
+    max-width: 1200px;   
+     
+}
+
+.footer-container{
+    width: 1260px;
+    max-height: 100px;
+}
+.footer-details{
+    background-color: #000000;
+    right: 0;
+    text-align: center;
+    padding: 50px;
+}
+.footer-menu {
+    font-size: 20px;
+
+}
+.footer-menu>a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-menu>a:hover {
+    text-decoration: underline;
+}
+.footer-credit{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+}

@@ -1,0 +1,46 @@
+.header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+    align-items: center;
+    left: 0;
+}
+
+.header.scrolled {
+    height: 90px;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); 
+}
+.header hr {
+    height: 3px;
+    background: rgb(233, 230, 230);
+    margin: 5px 5px;
+    border: none;
+}
+
+.nav-logo {
+    width: 65px;
+    height: 60px;
+}
+
+.navbar-menu a {
+    color: black;
+    margin-right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar-menu a:hover {
+    color: rgb(86, 86, 91);
+    
+}
+.navbar-menu i{
+    color: #000000;
+}

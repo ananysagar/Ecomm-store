@@ -1,0 +1,40 @@
+.newsletter {
+    max-width: 1200px;
+    height: 280px;
+}
+
+.newsletter-container {
+    background-color: #242424;
+    width: 1210px;
+    padding: 0 25px;
+    height: 280px;
+}
+.newsletter-card {
+    padding-top: 50px;
+    text-align: center;
+}
+.newsletter-card >p {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.newsletter-form>input{
+    margin-right: 15px;
+    height: 25px;
+    width: 200px;
+    font-size: 18px;
+}
+.newsletter-form>button {
+    height: 29px;
+    font-size: 18px;
+    text-align: center;
+    border-style: none;
+}
+
+.newsletter-form>button:hover {
+    background: #cfcfcf;
+}
