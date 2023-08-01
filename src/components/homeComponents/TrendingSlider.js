@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../components/TrendingSlider.css'
+import '../homeComponents/TrendingSlider.css'
 
 function TrendingSlider(props) {
     const displayIDs = [3,6,9,19,15,2,12,17,4];

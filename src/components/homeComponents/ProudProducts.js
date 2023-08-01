@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/ProudProduct.css'
+import '../homeComponents/ProudProduct.css'
 
 function ProudProducts(props) {
 

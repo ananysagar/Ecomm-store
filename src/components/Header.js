@@ -22,10 +22,10 @@ function Header() {
     <div className={`header ${scrolled ? 'scrolled' : ''}`}>
         <div className='navbar'>
             <div className='brand-logo'>
-                <img src={brandLogo} alt='brand-logo' className='nav-logo'/>
+                <a href="/"><img src={brandLogo} alt='brand-logo' className='nav-logo'/></a>
             </div>
             <div className='navbar-menu'>
-                <a href="#">Categories</a>
+                <a href="/categories">Categories</a>
                 <a href='/www.google.com'>Product Page</a>
                 <a href='/www.google.com'><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             </div>

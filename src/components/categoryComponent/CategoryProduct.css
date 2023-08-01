@@ -1,0 +1,116 @@
+.category {
+    height: 30vh;
+}
+
+.category-container {
+    padding: 25px;
+}
+.category-top {
+    display: flex;
+    justify-content: space-between; /* Center the content horizontally */
+    align-items: center;
+}
+.category-top>a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.category-top>a:hover {
+    color: #474747;
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center;
+}
+.category-btn {
+    text-align: center;
+}
+
+.category-btn > .active {
+    background-color: #000;
+    color: #fff;
+}
+
+.category-btn>button {
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: none;
+    background: #fff;
+    border: 2px solid #777777;
+}
+.category-btn>button:hover {
+    border-color: #000000;
+}
+.category-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+.category-card {
+    background-color: #ffffff;
+    border: 2px solid #878585;
+    padding: 4px;
+    width: 280px;
+    height: 360px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.category-card:hover {
+    border: 2px solid #000000;
+}
+.category-card > img{
+    width: 230px;
+    height: 240px;
+    border-radius: 8px;
+    object-fit:fill;
+    padding-bottom: 15px;
+}
+
+.category-call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+}
+.category-card-details .category-product-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.category-add-to-cart {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    height: 25px;
+    width: 90px;
+    border-radius: 13px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.category-add-to-cart:hover {
+    color: #000000;
+    background-color: #fff;
+    width: 92px;
+    height: 27px;
+}
+
+.category-proudProductSection {
+    margin-top: 50px;
+}
+.category-proudHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+

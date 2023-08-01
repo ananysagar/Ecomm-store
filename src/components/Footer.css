@@ -1,11 +1,9 @@
 .footer{
-    max-width: 1200px;   
-     
+    
 }
 
 .footer-container{
-    width: 1260px;
-    max-height: 100px;
+    
 }
 .footer-details{
     background-color: #000000;
@@ -15,7 +13,6 @@
 }
 .footer-menu {
     font-size: 20px;
-
 }
 .footer-menu>a{
     padding-right: 20px;

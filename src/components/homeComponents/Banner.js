@@ -1,9 +1,9 @@
 import React from 'react'
-import electronics from '../images/electronics.jpg'
-import jewellery from '../images/Jewellery.jpg'
-import menscloth from '../images/mens-clothing.jpg'
-import womenscloth from '../images/womens-clothing.jpg'
-import '../components/Banner.css'
+import electronics from '../../images/electronics.jpg'
+import jewellery from '../../images/Jewellery.jpg'
+import menscloth from '../../images/mens-clothing.jpg'
+import womenscloth from '../../images/womens-clothing.jpg'
+import '../homeComponents/Banner.css'
 
 function Banner() {
   return (

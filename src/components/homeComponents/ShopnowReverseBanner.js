@@ -1,6 +1,6 @@
 import React from 'react'
-import banner3 from '../images/banner3-img.jpg'
-import '../components/ShopnowReverseBanner.css'
+import banner3 from '../../images/banner3-img.jpg'
+import '../homeComponents/ShopnowReverseBanner.css'
 
 function ShopnowReverseBanner() {
   return (

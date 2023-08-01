@@ -1,6 +1,6 @@
 import React from 'react'
-import banner2 from '../images/banner2-img.jpg'
-import '../components/ShopnowBanner.css'
+import banner2 from '../../images/banner2-img.jpg'
+import '../homeComponents/ShopnowBanner.css'
 
 function ShopnowBanner() {
   return (
