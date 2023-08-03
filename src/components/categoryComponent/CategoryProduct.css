@@ -48,8 +48,7 @@
 }
 .category-product-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap:wrap;
     padding: 25px;
 }
 .category-card {
@@ -59,8 +58,8 @@
     width: 280px;
     height: 360px;
     margin-bottom: 15px;
+    margin-right: 0.88vw;
     text-align: center;
-    
 }
 .category-card:hover {
     border: 2px solid #000000;

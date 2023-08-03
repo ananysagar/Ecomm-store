@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../categoryComponent/CategoryProduct.css';
+import { Link } from 'react-router-dom';
 
 function CategoryProducts(props) {
     const [filterData, setFilterData] = useState([]);
@@ -54,7 +55,7 @@ function CategoryProducts(props) {
                         <h2 className='category-title'>{selectedCategory}</h2>
                     </div>
                     <div className='category-btn'>
-                        <button className={activeCategory == ('' || 'all') ? 'active' : ''} onClick={() => filterResult('all')}>All</button>
+                        <button className={activeCategory === ('' || 'all') ? 'active' : ''} onClick={() => filterResult('all')}>All</button>
                         <button className={activeCategory ==="men's clothing" ? 'active' : ''} onClick={() => filterResult("men's clothing")}>Men's Clothing</button>
                         <button className={activeCategory ==="women's clothing" ? 'active' : ''} onClick={() => filterResult("women's clothing")}>Women's Clothing</button>
                         <button className={activeCategory ==="electronics" ? 'active' : ''} onClick={()=> filterResult('electronics')}>Electronics</button>
