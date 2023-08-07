@@ -30,12 +30,12 @@
     text-align: center;
 }
 
-.category-btn > .active {
+.category-btn >a > .active {
     background-color: #000;
     color: #fff;
 }
 
-.category-btn>button {
+.category-btn>a>button {
     margin-right: 15px;
     text-decoration: none;
     padding: 5px;
@@ -43,7 +43,7 @@
     background: #fff;
     border: 2px solid #777777;
 }
-.category-btn>button:hover {
+.category-btn>a>button:hover {
     border-color: #000000;
 }
 .category-product-container {

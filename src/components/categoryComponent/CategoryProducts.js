@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../categoryComponent/CategoryProduct.css';
-import { Link } from 'react-router-dom';
+
 
 function CategoryProducts(props) {
     const [filterData, setFilterData] = useState([]);
@@ -9,7 +9,9 @@ function CategoryProducts(props) {
 
     useEffect(() => {
         if(props.data.length > 0) {
-            setFilterData(props.data);
+            if(props.searchedKey != undefined){
+                filterResult(props.searchedKey);
+            }
         }
     }, [props.data]);
     
@@ -55,11 +57,11 @@ function CategoryProducts(props) {
                         <h2 className='category-title'>{selectedCategory}</h2>
                     </div>
                     <div className='category-btn'>
-                        <button className={activeCategory === ('' || 'all') ? 'active' : ''} onClick={() => filterResult('all')}>All</button>
-                        <button className={activeCategory ==="men's clothing" ? 'active' : ''} onClick={() => filterResult("men's clothing")}>Men's Clothing</button>
-                        <button className={activeCategory ==="women's clothing" ? 'active' : ''} onClick={() => filterResult("women's clothing")}>Women's Clothing</button>
-                        <button className={activeCategory ==="electronics" ? 'active' : ''} onClick={()=> filterResult('electronics')}>Electronics</button>
-                        <button className={activeCategory ==="jewelery" ? 'active' : ''} onClick={()=> filterResult('jewelery')}>Jewellery</button>
+                        <a href='/categories/all'><button className={activeCategory === ('' || 'all') ? 'active' : ''} >All</button></a>
+                        <a href='/categories/men'><button className={activeCategory ==="men's clothing" ? 'active' : ''}>Men's Clothing</button></a>
+                        <a href='/categories/women'><button className={activeCategory ==="women's clothing" ? 'active' : ''}>Women's Clothing</button></a>
+                        <a href='/categories/electronics'><button className={activeCategory ==="electronics" ? 'active' : ''}>Electronics</button></a>
+                        <a href='/categories/jewelery'><button className={activeCategory ==="jewelery" ? 'active' : ''}>Jewellery</button></a>
                     </div>
                 </div>
             </div>
